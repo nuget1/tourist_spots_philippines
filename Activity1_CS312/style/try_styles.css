@@ -1,0 +1,209 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #176B87;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 5;
+    font-size: 24px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.accommodation-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.accommodation-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow-x: auto;
+}
+
+.accommodation-item {
+    flex: 0 0 300px;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+    transition: filter 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+.accommodation-item:hover .image-wrapper img {
+    filter: brightness(1);
+}
+
+.accommodation-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3 {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+}
+
+.overlay p {
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.comments-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.comments-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Styles for individual comment boxes */
+.comment-box {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.comment-user {
+    display: flex;
+    align-items: center;
+}
+
+.comment-user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-user span {
+    font-weight: bold;
+}
+
+.comment-content p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.weather-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.weather-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.weather-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.weather-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.news-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.news-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news-list {
+    display: flex;
+    overflow-x: auto;
+}
+
+.news-item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; 
+    height: 200px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Ensure the iframe fills the news item container */
+.news-item iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
