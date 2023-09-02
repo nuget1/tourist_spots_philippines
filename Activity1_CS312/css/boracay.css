@@ -1,10 +1,6 @@
 @media (max-width: 800px) and (orientation: landscape), (max-width: 800px) and (orientation: portrait) {
 
-    .bohol-img {
-        margin: auto;
-    }
-
-    .bohol-headline {
+    .boracay-headline {
         text-align: center;
         margin: 10px auto;
         font-size: 2.3rem;
@@ -22,9 +18,9 @@
         justify-content:center;
         align-items: center;
         gap: 5px;
-        background-color: rgb(244, 184, 243);
+        background-color: rgb(255, 120, 120);
         border-radius: 25px;
-        box-shadow: 2px 2px 4px 4px rgb(105, 65, 104);
+        box-shadow: 2px 2px 4px 4px rgb(105, 50, 50);
         
     }
 
@@ -34,16 +30,6 @@
     }
 
 }
-
-.bohol-headline {
-    font-size: 2.3rem;
-}
-
-main {
-    padding-left: 20px;
-
-}
-
 .content-section > * {
     font-size: 2rem;
     text-align: justify;
@@ -51,7 +37,8 @@ main {
     max-width: 1200px;
 }
 
-.bohol-img {
-    width: 100%;
-    max-width: 320px;
+
+.boracay-headline {
+    font-size: 2.3rem;
 }
+

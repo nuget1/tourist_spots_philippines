@@ -1,0 +1,32 @@
+@media (max-width: 800px) and (orientation: landscape), (max-width: 800px) and (orientation: portrait) {
+#news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    gap: 50px;
+
+    iframe {
+        width: 100%;
+        max-width: 500px;
+        height: 600px;
+        box-shadow: 2px 2px 4px 4px rgb(0, 0, 0);
+    }
+}
+}
+
+#news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 800px;
+}

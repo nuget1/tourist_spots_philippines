@@ -9,93 +9,62 @@
 <body>
 
     <header>
-        <img src="ph_logo.png" id="logo">
-        <p id="name">ToRizzMo</p>
-        <nav>
-        <a href="index.html">Home</a>
-        <a href="#news">News</a>
-        <a href="#aboutUs">About Us</a>
-        </nav> 
+        <img id="logo_img" src="resources/ph_logo.png">
+            <h1 id="logo-text">TouristMo!</h1>
+            <nav>
+                <a href="/index.html">Home</a>
+                <a href="/other_pages/news.html">News</a>
+                <a href="/other_pages/about_us.html">About Us</a>
+            </nav>
     </header>
     
     <main>
-        <section class="boracay">
+        <h2 class="home-headline">Top 3 Destinations in the Philippines</h2>
+        <section class="boracay-section">
             <div class="content">
-                <a href="other_pages/boracay.html">
+                <a id="boracay-link" href="other_pages/boracay.html">
                     <h1 class="spots">White Beach, Boracay</h1>
-                <p>
-                    Boracay, in the northwest of Panay Island, part of the central Philippines in the Pacific, is a highly popular tourist destination, now also internationally renowned, with White Beach and Bulabog Beach as its primary attractions on opposite sides of the island.
-                </p>
+                    <p>
+                        Boracay, in the northwest of Panay Island, part of the central Philippines in the Pacific, is a highly popular tourist destination, now also internationally renowned, with White Beach and Bulabog Beach as its primary attractions on opposite sides of the island.
+                    </p>
                 </a>
-            </div>
             <a href="other_pages/boracay.html">
-            <div id="cover1"></div>
-                <img src="boracay.jpg" >
+                <div id="cover1"></div>
+                <img class="home-thumbnail boracay-img" src="resources/boracay.jpg" alt="boracay beach with white sand and palm trees">
             </a>
+            </div>
         </section>
 
-        <section class="bohol">
+        <section class="bohol-section">
             <div class="content">
-                <a href="other_pages/bohol.html">
+                <a id="bohol-link" href="other_pages/bohol.html">
                     <h1 class="spots">Chocolate Hills, Bohol</h1>
                 <p>
                     Bohol, in the Central Visayas, is home to friendly Boholanos who cherish its natural wonders. Notably, the Chocolate Hills, over 1268 uniformly shaped hills, turn chocolate brown in summer, and the Tarsiers, tiny primates, can amaze with their 180-degree head turn.
                 </p>
                 </a>
             </div>
-            <div id="cover2"></div>
             <a href="other_pages/bohol.html">
-                <img src="bohol.jpg" alt="Bohol Image">
+                <div id="cover2"></div>
+                <img class="home-thumbnail bohol-img" src="resources/bohol.jpg" alt="chocolate hills under sunny weather">
             </a>
         </section>
         
-        <section class="puerto">
+        <section class="palawan-section">
             <div class="content">
-                <a href="other_pages/puerto_princesa.html">
+                <a id="palawan-link" href="other_pages/palawan.html">
                     <h1 class="spots">Puerto Princesa Underground River, Palawan</h1>
                 <p>
-                    Palawan is located in the Western Visayas Region and the islands stretches from Mindoro to Borneo in the southwest. 
-                    The place is for adventure seekers and nature lovers and its famous for its marine sanctuaries, white sand beaches, 
-                    and exotic wildlife.
+                    Palawan is located in the Western Visayas Region and the islands stretches from Mindoro to Borneo in the southwest. The place is for adventure seekers and nature lovers and its famous for its marine sanctuaries, white sand beaches, and exotic wildlife.
                 </p>
                 </a>
             </div>
-            <div id="cover3"></div>
             <a href="other_pages/puerto_princesa.html">
-                <img src="palawan.jpg" alt="Palawan Image">
+                <div id="cover3"></div>
+                <img class="home-thumbnail palawan-img" src="resources/palawan.jpg" alt="entrance to underground river cave">
             </a>
         </section>
-
-
-
-        
-    <section id="news">
-        <iframe src="https://newsinfo.inquirer.net/1695659/boracay-bounces-back"  title="Boracay bounces back" class="feed"></iframe>
-        <iframe src="https://newsinfo.inquirer.net/1547403/bohols-chocolate-hills-scarred-by-odette"  title="Bohol's Chocolate Hills scarred by Typhoon Odette" class="feed"></iframe>
-        <iframe src="https://newsinfo.inquirer.net/1570677/passion-fuels-forest-protection-in-palawan"  title="Passion fuels forest protection in Palawan" class="feed"></iframe>
-    </section>
-
-    <section id="aboutUs">
-        <p>We aim to showcase the diverse and enchanting destinations that make the Philippines a must-visit country for travelers 
-            from around the world. We believe that each island, each beach, each historical site has a unique story to tell, and we 
-            are committed to bringing these stories to life through our platform.
-        </p>
-        <p>The Team:</p>
-        <table>
-            <tr>
-                <td><img src="yustine.jpg">Arevalo, Yustine Larence</td>
-                <td><img src="ian.jpg">Cristino, Ian</td>
-                <td><img src="andrei.jpg">Dagatay, Andrei Jas</td>
-            </tr>
-            <tr>
-                <td><img src="jobert.jpg">Deluna, Jobert</td>
-                <td><img src="katrina.jpeg">Malang, Katrina</td>
-            </tr>
-        </table>
-    </section>
     </main>
-
-
 
     <footer>
         <p>Copyright &copy; Frogrammers 2023</p>

@@ -1,7 +1,19 @@
+@media (min-width: 801px) {
+
+html {
+    box-sizing: border-box;
+    background: rgb(130, 130, 252);
+}
+
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
 body{
     background-color:lightblue;
     margin:0;
-    
+    padding: 0;
 }
 
 header{
@@ -25,16 +37,37 @@ font-size: 50px;
 
 nav{
 position:absolute;
+text-align: center;
 right:20%;
 top:50%;
 }
 
-#logo{
+nav > a, a:link, a:visited{
+    color: rgb(0, 0, 0);
+    font-size: 1.4vw;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+nav > a:hover {
+    color: rgb(51, 246, 103);
+}
+
+#logo_img{
 margin-left: auto;
 margin-right: auto;
 left:10%;
 height:90%;
 position:relative;
+}
+
+#logo-text {
+    display: inline-block;
+    position: relative;
+    font-size: 3vw;
+    left: 35%;
+    bottom: 35%;
+    margin: auto;
 }
 
 main{
@@ -46,10 +79,12 @@ width: 80%;
 
 footer{
 height: 30px;
-position:absolute;
-margin-bottom:0;
+position:relative;
+margin-bottom:0px;
+bottom:0px;
 width:100%;
 background-color:rgb(130, 130, 252);
+font-size: 1.2vw;
 }
 
 #cover1, #cover2, #cover3 {
@@ -71,27 +106,27 @@ background-color:rgb(130, 130, 252);
     opacity: 0.3; 
 }
 
-.boracay, .bohol, .puerto {
+.boracay-section, .bohol-section, .palawan-section {
     position: relative;
     width: 100%;
-    height: calc(100% - 100px);
+    height: 100%;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.boracay .content, .bohol .content, .puerto .content {
+.boracay-section .content, .bohol-section .content, .palawan-section .content {
     flex: 1;
     text-align: left;
 }
 
-.boracay img, .bohol img, .puerto img {
+.boracay-section img, .bohol-section img, .palawan-section img {
     flex: 1;
     width: 100%;
     height: auto;
     overflow: hidden;
 }
 
-.boracay h1, .bohol h1, .puerto h1{
+.boracay-section h1, .bohol-section h1, .palawan-section h1{
     position: absolute;
     margin-top: 3vw;
     width: 90%;
@@ -105,7 +140,7 @@ background-color:rgb(130, 130, 252);
     z-index: 3;
 }
 
-.boracay p, .bohol p{
+.boracay-section p, .bohol-section p{
     position: absolute;
     margin-top: 10vw;
     width: 90%;
@@ -116,7 +151,7 @@ background-color:rgb(130, 130, 252);
     font-family: Arial Narrow;
 }
 
-.puerto p {
+.palawan-section p {
     position: absolute;
     margin-top: 15vw;
     width: 90%;
@@ -126,12 +161,134 @@ background-color:rgb(130, 130, 252);
     z-index: 3;
     font-family: Arial Narrow;
 }
-
-#news {
-    padding-top: 50px;
 }
 
-.feed {
-    width:100%;
-    height:500px;
-}
+@media (max-width: 800px) and (orientation: landscape), (max-width: 800px) and (orientation: portrait) {
+
+    #logo_img {
+        position: absolute;
+        display: none;
+    }
+    
+    html {
+        background: rgb(130, 130, 252);
+    
+    }
+    
+    body {
+        background-color:lightblue;
+        margin:0;
+    }
+    
+    header {
+        height: 100px;
+        position:sticky;
+        position:-webkit-sticky;
+        top:0;
+        width:100%;
+        background-color:rgb(130, 130, 252);
+        z-index: 100;
+        padding: 10px;
+    }
+    
+    main {
+        background: linear-gradient(40deg, rgb(239, 210, 129), rgb(246, 237, 176));
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 100%;
+        min-height: 700px;
+        padding: 1px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .home-headline {
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+    main  p {
+        font-size: 1.2rem;
+    }
+    
+    
+    #boracay-section, #bohol-section, #palawan-section {
+        width: 75%;
+        padding: 30px;
+        margin: 70px auto;
+        height: 55%;
+        text-align: justify;
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    #boracay-section{
+        transform: rotate(-3deg);
+        background-color: rgba(106, 246, 157, 0.4);
+        box-shadow: 2px 2px 4px 3px rgba(51, 119, 76, 0.54);
+        margin-top: 10px;
+    }
+    
+    #palawan-section {
+        transform: rotate(-3.5deg);
+        background-color: rgba(98, 136, 251, 0.692);
+        box-shadow: 2px 2px 4px 3px rgba(46, 64, 118, 0.692);
+        margin-bottom: 20px;
+    }
+    
+    #bohol-section {
+        transform: rotate(2deg);
+        background-color: rgba(255, 178, 83, 0.77);
+        box-shadow: 2px 2px 4px 3px rgba(92, 64, 29, 0.77);
+        margin: 10px auto;
+    }
+    
+    .home-thumbnail {
+        width: 60%;
+        max-width: 240px;
+    }
+    
+    nav {
+        text-align: center;
+    }
+    
+    nav a:visited{
+        color: white;
+    }
+    
+    nav a{
+        color: white;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 1.2rem;
+    }
+    
+    nav a:hover {
+        color: yellow;
+    }
+    
+    footer {
+        background: rgb(49, 42, 42);
+        padding: 5px;
+        color: white;
+    }
+    
+    footer p {
+        text-align: center;
+        margin: 0;
+        /*font-family: Arial, Helvetica, sans-serif;    */
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .boracay-img, .palawan-img, .bohol-img {
+        float: left;
+        box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.4);
+        object-fit: cover;
+        width: 100%;
+    }
+    }
+    
+    
