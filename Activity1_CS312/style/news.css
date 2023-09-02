@@ -7,13 +7,14 @@
     margin: 30px auto;
     gap: 50px;
 
-    iframe {
+    
+}
+iframe {
         width: 100%;
         max-width: 500px;
         height: 600px;
         box-shadow: 2px 2px 4px 4px rgb(0, 0, 0);
     }
-}
 }
 
 #news {
