@@ -71,54 +71,6 @@ background-color:rgb(130, 130, 252);
     opacity: 0.3; 
 }
 
-/* -------------- Base --------------
-
-.boracay {
-    position: relative; 
-    width: 100%;
-    height: 400px;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.boracay .content {
-    flex: 1;
-    text-align: left; 
-}
-
-.boracay img {
-    flex: 1;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-
-.boracay h1 {
-    position: absolute;
-    margin-top: 3vw;
-    width: 800px;
-    font-size: 5vw;
-    color: white;
-    font-family: helvetica, sans-serif;
-    font-style: oblique;
-    font-stretch: semi-condensed;
-    text-decoration: none;
-    padding-left: 10px;
-    z-index: 3; 
-}
-
-.boracay p {
-    position: absolute;
-    margin-top: 10vw;
-    width: 90%;
-    padding-left: 10px;
-    font-size: 1.8vw;
-    color: white;
-    z-index: 3; 
-}
-
-------------------------------------- */
-
 .boracay, .bohol, .puerto {
     position: relative;
     width: 100%;
@@ -161,7 +113,7 @@ background-color:rgb(130, 130, 252);
     font-size: 2vw;
     color: white;
     z-index: 3;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial Narrow;
 }
 
 .puerto p {
@@ -172,7 +124,7 @@ background-color:rgb(130, 130, 252);
     font-size: 2vw;
     color: white;
     z-index: 3;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial Narrow;
 }
 
 #news {
