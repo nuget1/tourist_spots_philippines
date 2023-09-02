@@ -1,5 +1,12 @@
 @media (max-width: 800px) and (orientation: landscape), (max-width: 800px) and (orientation: portrait) {
 
+    table, tr, th, td {
+        background-color: white;
+        font-size: 0.65rem;
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+
     .bohol-img {
         margin: auto;
     }
@@ -54,4 +61,11 @@ main {
 .bohol-img {
     width: 100%;
     max-width: 320px;
+}
+
+table, tr, th, td {
+    padding: 15px;
+    background-color: white;
+    border: 1px solid;
+    border-collapse: collapse;
 }
