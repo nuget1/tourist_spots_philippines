@@ -11,9 +11,10 @@ html {
 }
 
 body{
-    background-color:lightblue;
+    background-color:#F3EFE0;
     margin:0;
     padding: 0;
+    color:#1A1A1D;
 }
 
 header{
@@ -22,7 +23,7 @@ position:sticky;
 position:-webkit-sticky;
 top:0;
 width:100%;
-background-color:rgb(130, 130, 252);
+background-color:#39b4e9;
 z-index: 100;
 }
 
@@ -36,10 +37,10 @@ font-size: 50px;
 }
 
 nav{
-position:absolute;
-text-align: center;
-right:20%;
-top:50%;
+    position: absolute;
+    text-align: center;
+    right: 5%;
+    top: 50%;
 }
 
 nav > a, a:link, a:visited{
@@ -65,13 +66,13 @@ position:relative;
     display: inline-block;
     position: relative;
     font-size: 3vw;
-    left: 35%;
-    bottom: 35%;
+    left: 10vw;
+    bottom: 25%;
     margin: auto;
 }
 
 main{
-background-color: rgb(109, 201, 170);
+background-color: #F3EFE0;
 margin-left: auto;
 margin-right: auto;
 width: 80%;
@@ -83,7 +84,7 @@ position:relative;
 margin-bottom:0px;
 bottom:0px;
 width:100%;
-background-color:rgb(130, 130, 252);
+background-color:#39b4e9;
 font-size: 1.2vw;
 }
 
@@ -100,6 +101,7 @@ font-size: 1.2vw;
     animation-delay: 20ms;
     opacity: 0.9; 
     transition: opacity 0.3s; 
+    margin: 0;
 }
 
 #cover1:hover, #cover2:hover, #cover3:hover {
@@ -107,28 +109,34 @@ font-size: 1.2vw;
 }
 
 .boracay-section, .bohol-section, .palawan-section {
+    margin: 0;
+    padding: 0;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     justify-content: space-between;
     align-items: flex-start;
 }
 
 .boracay-section .content, .bohol-section .content, .palawan-section .content {
+    margin: 0;
+    padding: 0;
     flex: 1;
     text-align: left;
+    height:100%;
 }
 
 .boracay-section img, .bohol-section img, .palawan-section img {
     flex: 1;
     width: 100%;
     height: auto;
-    overflow: hidden;
+    margin: 0px;
 }
+
 
 .boracay-section h1, .bohol-section h1, .palawan-section h1{
     position: absolute;
-    margin-top: 3vw;
+    margin-top: 4vw;
     width: 90%;
     font-size: 5vw;
     color: white;
@@ -161,6 +169,12 @@ font-size: 1.2vw;
     z-index: 3;
     font-family: Arial Narrow;
 }
+.home-headline {
+    text-align: center;
+    margin: 10px auto;
+    font-family: helvetica, sans-serif;
+    font-size: xx-large;
+}   
 }
 
 @media (max-width: 800px) and (orientation: landscape), (max-width: 800px) and (orientation: portrait) {
@@ -176,7 +190,7 @@ font-size: 1.2vw;
     }
     
     body {
-        background-color:lightblue;
+        background-color:#F3EFE0;
         margin:0;
     }
     
@@ -186,13 +200,13 @@ font-size: 1.2vw;
         position:-webkit-sticky;
         top:0;
         width:100%;
-        background-color:rgb(130, 130, 252);
+        background-color:#39b4e9;
         z-index: 100;
         padding: 10px;
     }
     
     main {
-        background: linear-gradient(40deg, rgb(239, 210, 129), rgb(246, 237, 176));
+        background-color: #F3EFE0;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
@@ -212,7 +226,7 @@ font-size: 1.2vw;
     }
     
     
-    #boracay-section, #bohol-section, #palawan-section {
+    .boracay-section, .bohol-section, .palawan-section {
         width: 75%;
         padding: 30px;
         margin: 70px auto;
@@ -225,21 +239,21 @@ font-size: 1.2vw;
         gap: 5px;
     }
     
-    #boracay-section{
+    .boracay-section{
         transform: rotate(-3deg);
         background-color: rgba(106, 246, 157, 0.4);
         box-shadow: 2px 2px 4px 3px rgba(51, 119, 76, 0.54);
         margin-top: 10px;
     }
     
-    #palawan-section {
+    .palawan-section {
         transform: rotate(-3.5deg);
         background-color: rgba(98, 136, 251, 0.692);
         box-shadow: 2px 2px 4px 3px rgba(46, 64, 118, 0.692);
         margin-bottom: 20px;
     }
     
-    #bohol-section {
+    .bohol-section {
         transform: rotate(2deg);
         background-color: rgba(255, 178, 83, 0.77);
         box-shadow: 2px 2px 4px 3px rgba(92, 64, 29, 0.77);
