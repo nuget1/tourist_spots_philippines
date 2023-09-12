@@ -1,6 +1,7 @@
 @media (max-width: 800px) and (orientation: landscape), (max-width: 800px) and (orientation: portrait) {
 
-    .boracay-headline {
+
+  .boracay-headline {
         text-align: center;
         margin: 10px auto;
         font-size: 2.3rem;
@@ -29,7 +30,7 @@
         line-height: 20px;
     }
 
-}
+  }
 .content-section > * {
     font-size: 2rem;
     text-align: justify;
@@ -37,7 +38,43 @@
     max-width: 1200px;
 }
 
-
 .boracay-headline {
     font-size: 2.3rem;
+}
+
+
+.boracay-container {
+  padding: 2rem;
+}
+
+.boracay-slider {
+  display: flex;
+  aspect-ratio: 16/9;
+  overflow-x: scroll; /* Add overflow-x property for scroll feature */
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+}
+
+.boracay-slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 800px) and (orientation: landscape), (max-width: 800px) and (orientation: portrait) {
+  .boracay-slider {
+      display: flex;
+      aspect-ratio: 16/9;
+      /* Remove box-shadow and border-radius if not needed on smaller screens */
+  }
+
+  .boracay-slider img {
+      flex: 1 0 auto;
+      object-fit: cover;
+      min-width: 100%;
+      /* Remove scroll-snap-align property and adjust other properties as needed */
+  }
 }
