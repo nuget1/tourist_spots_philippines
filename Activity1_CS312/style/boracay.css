@@ -47,6 +47,12 @@
   padding: 2rem;
 }
 
+.bora-slider-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
 .boracay-slider {
   display: flex;
   aspect-ratio: 16/9;
@@ -61,6 +67,30 @@
   flex: 1 0 100%;
   scroll-snap-align: start;
   object-fit: cover;
+}
+
+.bora-slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.bora-slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.bora-slider-nav a:hover {
+  opacity: 1;
+  
 }
 
 /* Media query for smaller screens */
