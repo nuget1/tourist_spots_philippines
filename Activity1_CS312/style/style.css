@@ -78,6 +78,7 @@
     width: 80%;
     }
     
+    /*
     footer{
     height: 30px;
     position:relative;
@@ -87,6 +88,7 @@
     background-color:#39b4e9;
     font-size: 1.2vw;
     }
+    */
     
     #cover1, #cover2, #cover3 {
         position: absolute;
