@@ -1,3 +1,29 @@
+/* Introductory Part CSS */
+/* Style for the intro section */
+.intro {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container */
+    box-sizing: border-box; /* Include padding in the total width */
+}
+
+/* Style for h1 and h2 */
+.intro h1,
+.intro h2 {
+    font-size: 36px; /* Adjust the font size as needed */
+    margin-bottom: 10px;
+}
+
+/* Style for p */
+.intro p {
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Scenic Gallery CSS */
+
+.scenic-h2 {
+    text-align: center;
+}
 .container {
     padding: 2rem;
 }
@@ -52,9 +78,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
+    background-color: #e3e6e7cb;
+    margin: 20px auto;
+    padding: 20px;
 }
 
 header {
@@ -64,9 +90,17 @@ header {
     padding: 20px 0;
 }
 
+/*
 h1 {
     margin: 5px;
     font-size: 24px;
+}
+*/ 
+
+h2 {
+    font-size: 24px;
+    color: #F9C556;
+    margin-bottom: 10px;
 }
 
 main {
@@ -88,7 +122,7 @@ main {
 
 .accommodation-container h2 {
     font-size: 24px;
-    color: #007BFF;
+    color: #F9C556;
     margin-bottom: 10px;
 }
 
@@ -114,6 +148,7 @@ main {
     overflow: hidden;
     border-radius: 10px;
 }
+
 
 .image-wrapper img {
     width: 100%;
@@ -161,7 +196,7 @@ main {
     text-align: center;
 }
 
-
+/*
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f2f2f2;
@@ -272,7 +307,9 @@ h2 {
     padding: 0 10px;
     text-align: center;
 }
+*/
 
+/* Comment Boxes CSS */
 .comments-container {
     background-color: #f7f7f7;
     padding: 20px;
@@ -284,7 +321,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Styles for individual comment boxes */
+
 .comment-box {
     background-color: #ffffff;
     border: 1px solid #ccc;
@@ -314,6 +351,7 @@ h2 {
     font-size: 16px;
 }
 
+/* Weather Section CSS */
 .weather-section {
     background-color: #f7f7f7;
     padding: 20px;
@@ -338,6 +376,7 @@ h2 {
     margin: 0 auto;
 }
 
+/* News Section CSS */
 .news-section {
     background-color: #f7f7f7;
     padding: 20px;
