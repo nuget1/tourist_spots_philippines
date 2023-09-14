@@ -121,6 +121,10 @@
   margin-bottom: 40px; 
   background-color: #acd8e5; 
   padding: 10px; 
+  max-width: 800px;
+  width: 100%; 
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 /* Reduce the margin between images */
@@ -150,4 +154,29 @@
 
 .image-wrapper:hover .caption {
   opacity: 1;
+}
+/* Add styles for the image sliders under each station */
+.image-container {
+  margin-bottom: 20px;
+}
+
+.boracay-slider {
+  display: flex;
+  aspect-ratio: 16/9;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+  width: 100%; /* Make the slider take up the full width of its container */
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.boracay-slider img {
+  flex: 0 0 auto; /* Allow the images to dictate the container size */
+  scroll-snap-align: start;
+  object-fit: cover;
+  min-width: 100%;
+  max-height: 100%;
 }
