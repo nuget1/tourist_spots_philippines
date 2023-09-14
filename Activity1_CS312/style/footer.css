@@ -1,10 +1,5 @@
 @media (max-width: 768px) {
-    .footer .row a {
-        text-decoration: none;
-        color: gray;
-        transition: 0.5s;
-        margin-right: 25px; /* Add space between links */
-    }
+    
 }
 
 body{
@@ -15,7 +10,8 @@ body{
 
 div.footer{
     position: absolute;
-    margin-top: -10px;
+    margin-top: -5px;
+    width: 100%;
     background:#000;
     padding:25px 20px;
     font-family: 'Play', sans-serif;
@@ -31,10 +27,11 @@ div.footer{
     font-size:0.8em;
 }
     
-    .footer .row a{
+.footer .row a{
     text-decoration:none;
     color:gray;
     transition:0.5s;
+    margin-right: 25px;
 }
     
 .footer .row a:hover{
