@@ -1,9 +1,9 @@
 /* Introductory Part CSS */
-/* Style for the intro section */
+
 .intro {
     max-width: 800px; 
     margin: 20px auto; 
-    background-color: #fff;
+    background-color: #adebff;
     padding: 20px; 
     box-sizing: border-box; 
     border-radius: 5px;
@@ -19,16 +19,17 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
 }
 
-/* Style for h1 and h2 */
+
 .intro h1,
 .intro h2 {
-    font-size: 36px; /* Adjust the font size as needed */
+    font-size: 36px; 
     margin-bottom: 10px;
+    color: #c98724;
 }
 
 /* Style for p */
 .intro p {
-    font-size: 18px; /* Adjust the font size as needed */
+    font-size: 18px; 
 }
 
 /* Scenic Gallery CSS */
@@ -90,7 +91,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e3e6e7cb;
+    background-color: #6ad0f1cb;
     margin: 20px auto;
     padding: 20px;
 }
@@ -104,21 +105,21 @@ header {
 
 h2 {
     font-size: 24px;
-    color: #F9C556;
+    color: #c98724;
     margin-bottom: 10px;
 }
 
 main {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #adebff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .accommodation-container {
-    background-color: #fff;
+    background-color: #c9f0fd9a;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -127,7 +128,7 @@ main {
 
 .accommodation-container h2 {
     font-size: 24px;
-    color: #F9C556;
+    color: #c98724;
     margin-bottom: 10px;
 }
 
@@ -203,7 +204,7 @@ main {
 
 /* Comment Boxes CSS */
 .comments-container {
-    background-color: #f7f7f7;
+    background-color: #c9f0fd9a;
     padding: 20px;
     margin-top: 20px;
 }
@@ -245,7 +246,7 @@ main {
 
 /* Weather Section CSS */
 .weather-section {
-    background-color: #f7f7f7;
+    background-color: #c9f0fd;
     padding: 20px;
     margin-top: 20px;
 }
@@ -270,7 +271,7 @@ main {
 
 /* News Section CSS */
 .news-section {
-    background-color: #f7f7f7;
+    background-color: #c9f0fd9a;
     padding: 20px;
     margin-top: 20px;
 }
