@@ -55,7 +55,7 @@
 
 .boracay-slider {
   display: flex;
-  overflow-x: scroll; /* Add overflow-x property for scroll feature */
+  overflow-x: scroll; 
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
