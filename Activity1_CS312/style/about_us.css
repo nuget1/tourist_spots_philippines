@@ -12,8 +12,12 @@
     }
 }
 
+body{
+    background:linear-gradient(to bottom, #ffb968,rgb(255, 235, 220));
+}
 
 main {
+    padding-top: 50px;
     background: linear-gradient(to top, #2d75da,rgb(220, 235, 255));
     position:relative;
     height: auto;

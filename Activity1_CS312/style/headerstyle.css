@@ -35,7 +35,7 @@
         width: 40%;
     }
     
-    nav > a, nav > a:link, nav > a:visited
+    nav > a, nav > a:link, nav > a:visited,
     .dropbtn, .dropbtn:link, .dropbtn:visited{
         color: rgb(0, 0, 0);
         font-size: 1rem;
