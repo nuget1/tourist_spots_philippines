@@ -28,10 +28,16 @@ div.footer{
 }
     
 .footer .row a{
+    font-size: 12pt;
     text-decoration:none;
     color:gray;
     transition:0.5s;
     margin-right: 25px;
+}
+
+.footer .row p{
+    font-size: 12pt;
+    text-decoration:none;
 }
     
 .footer .row a:hover{
