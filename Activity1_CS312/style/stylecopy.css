@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+    background: rgb(130, 130, 252);
+}
+
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color:#F3EFE0;
+    margin:0;
+    padding: 0;
+    color:#1A1A1D;
+}
+
+main{
+    background-color: #F3EFE0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    }
+
+    #cover1, #cover2, #cover3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2; 
+        background-color: rgba(0, 0, 0, 0.4); 
+        animation-name: fade;
+        animation-duration: 1s;
+        animation-delay: 20ms;
+        opacity: 0.9; 
+        transition: opacity 0.3s; 
+        margin: 0;
+    }
+    
+    #cover1:hover, #cover2:hover, #cover3:hover {
+        opacity: 0.3; 
+    }
+    
+    .boracay-section, .bohol-section, .palawan-section {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .boracay-section .content, .bohol-section .content, .palawan-section .content {
+        margin: 0;
+        padding: 0;
+        flex: 1;
+        text-align: left;
+        height:100%;
+    }
+    
+    .boracay-section img, .bohol-section img, .palawan-section img {
+        flex: 1;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    
+    
+    .boracay-section h2, .bohol-section h2, .palawan-section h2{
+        position: absolute;
+        margin-top: 4vw;
+        width: 90%;
+        font-size: 5vw;
+        color: white;
+        font-family: helvetica, sans-serif;
+        font-style: oblique;
+        font-stretch: semi-condensed;
+        text-decoration: none;
+        padding-left: 10px;
+        z-index: 3;
+    }
+    
+    .boracay-section p, .bohol-section p{
+        position: absolute;
+        margin-top: 10vw;
+        width: 90%;
+        padding-left: 10px;
+        font-size: 2vw;
+        color: white;
+        z-index: 3;
+        font-family: Arial Narrow;
+    }
+    
+    .palawan-section p {
+        position: absolute;
+        margin-top: 15vw;
+        width: 90%;
+        padding-left: 10px;
+        font-size: 2vw;
+        color: white;
+        z-index: 3;
+        font-family: Arial Narrow;
+    }
+    .home-headline {
+        text-align: center;
+        margin: 10px auto;
+        font-family: helvetica, sans-serif;
+        font-size: xx-large;
+    }   
+
