@@ -1,4 +1,12 @@
 @media (max-width: 800px) and (orientation: landscape), (max-width: 800px) and (orientation: portrait) {
+    hr{
+        display: none;
+        position: absolute;
+    }
+
+    body {
+        padding: 1px;
+    }
 
     table, tr, th, td {
         background-color: white;
@@ -15,12 +23,11 @@
 
     .bohol-headline {
         text-align: center;
-        margin: 10px auto;
         font-size: 2.3rem;
     }
 
     .content-section {
-        width: 75%;
+        width: 90%;
         padding: 30px;
         padding-top: 5px;
         margin: 70px auto;
@@ -41,6 +48,15 @@
     .content-section > p {
         font-size: 1.5rem;
         line-height: 30px;
+        margin: 10px;
+    }
+
+    main {
+    background: linear-gradient(to top, #6c95d0,rgb(220, 235, 255));
+    width: 100%;
+    font-family: Arial narrow;
+    padding: 1px;
+    padding-top: 120px;
     }
 
 }
@@ -48,15 +64,16 @@
 @media (min-width: 801px) {
 .bohol-headline {
     font-size: 3.3rem;
-    margin: 30px;
+    margin-left: 30px;
 }
 
 main {
     font-family: Arial narrow;
     padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 120px;
     padding-bottom: 30px;
     background: linear-gradient(to top, #6c95d0,rgb(220, 235, 255));
+    width: 100%;
 }
 
 
@@ -69,7 +86,7 @@ main {
 
 .bohol-img {
     width: 100%;
-    max-width: 320px;
+    max-width: 420px;
 }
 
 table, tr, th, td {
@@ -77,49 +94,11 @@ table, tr, th, td {
     background-color: white;
     border: 1px solid;
     border-collapse: collapse;
+    font-size: 1.2rem;
 }
 
-header {
-    height: 100px;
-    background-color: #eb7a7a;
-    width: 100%;
-    margin-top: 0;
-    z-index: 12;
+hr {
+    width: 80%;
 }
-
-#logo{
-    position:relative;
-    background-color: antiquewhite;
-    width: 20vw; /*auto*/
-    height: 80%;
-    top: 10px;
-    margin-left: 5vw;
-}
-
-nav{    
-    position: absolute;
-    text-align: right;
-    padding-right: 50px;
-    right: 10%;
-    top: 0;
-    height: 100%;
-    padding: 45px 0;
-}
-
-nav > a, nav > a:link, nav > a:visited{
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
-    margin-left: 15px;
-    margin-right: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: aliceblue;
-    
-}
-
-nav > a:hover {
-    color: rgb(51, 246, 103);
-}
-
 
 }
