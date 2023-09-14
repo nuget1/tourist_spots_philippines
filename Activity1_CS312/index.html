@@ -8,8 +8,18 @@
     <title>TouristMo!</title>
 </head>
 <body>
-
     <header>
+        <div id = "logo">
+        </div>
+        <nav>
+            <a href="#home-headline">Home</a>
+            <a href="#home-headline">Gallery</a>
+            <a href="other_pages/news.html">News</a>
+            <a href="other_pages/about_us.html">About Us</a>
+        </nav>
+
+    </header>
+    <!--<header>
         <img id="logo_img" src="resources/ph_logo.png" alt="Its More Fun In The Philippines!">
             <h2 id="logo-text">TouristMo!</h2>
             <nav>
@@ -17,47 +27,121 @@
                 <a href="other_pages/news.html">News</a>
                 <a href="other_pages/about_us.html">About Us</a>
             </nav>
-    </header>
+    </header>-->
     
     <main>
-        <h2 class="home-headline">Top 3 Destinations in the Philippines</h2>
-        <section class="boracay-section">
-            <div class="content">
-                <a href="other_pages/boracay.html">
-                    <h2 class="spots">White Beach, Boracay</h2>
-                    <p>
-                        Boracay, in the northwest of Panay Island, part of the central Philippines in the Pacific, is a highly popular tourist destination, now also internationally renowned, with White Beach and Bulabog Beach as its primary attractions on opposite sides of the island.
-                    </p>
-                    <div id="cover1"></div>
-                    <img class="home-thumbnail boracay-img" src="resources/boracay.jpg" alt="boracay beach with white sand and palm trees">
-                </a>
+        <section class = "showcase">
+            <img src="resources/Boracay.png" alt="pad">
+            <div class = "back">
+                <img id="one" src="resources/puerto2.jpg" alt="1">
+                <img id="two" src="resources/Bohol.png" alt="2">
+                <img id="three" src="resources/Boracay.png" alt="3">
             </div>
-        </section>
 
-        <section class="bohol-section">
-            <div class="content">
-                <a href="other_pages/bohol.html">
-                    <h2 class="spots">Chocolate Hills, Bohol</h2>
-                    <p>
-                        Bohol, in the Central Visayas, is home to friendly Boholanos who cherish its natural wonders. Notably, the Chocolate Hills, over 1268 uniformly shaped hills, turn chocolate brown in summer, and the Tarsiers, tiny primates, can amaze with their 180-degree head turn.
-                    </p>
-                    <div id="cover2"></div>
-                    <img class="home-thumbnail bohol-img" src="resources/bohol.jpg" alt="chocolate hills under sunny weather">
+            <div class="boracay">
+                <h2 class="spots">WhiteBeach,Boracay</h2>
+                <p>
+                    Boracay, in the northwest of Panay Island, part of the central Philippines in the Pacific, is a highly popular tourist destination, now also internationally renowned, with White Beach and Bulabog Beach as its primary attractions on opposite sides of the island.
+                </p>
+                <a href="other_pages/boracay.html" target="_blank">
+                    <span class="learn"> Learn More</span>
                 </a>
             </div>
-        </section>
         
-        <section class="palawan-section">
-            <div class="content">
-                <a href="other_pages/palawan.html">
-                    <h2 class="spots">Puerto Princesa Underground River, Palawan</h2>
-                    <p>
-                        Palawan is located in the Western Visayas Region and the islands stretches from Mindoro to Borneo in the southwest. The place is for adventure seekers and nature lovers and its famous for its marine sanctuaries, white sand beaches, and exotic wildlife.
-                    </p>
-                <div id="cover3"></div>
-                <img class="home-thumbnail palawan-img" src="resources/palawan.jpg" alt="entrance to underground river cave">
+            <div class="bohol">
+                <h2 class="spots">ChocolateHills,Bohol</h2>
+                <p>
+                    Bohol, in the Central Visayas, is home to friendly Boholanos who cherish its natural wonders. Notably, the Chocolate Hills, over 1268 uniformly shaped hills, turn chocolate brown in summer, and the Tarsiers, tiny primates, can amaze with their 180-degree head turn.
+                </p>
+                <a href="other_pages/bohol.html">
+                    <span class="learn"> Learn More</span>
                 </a>
             </div>
+        
+            <div class="puerto">
+                <h2 class="spots">PuertoPrincesaUndergroundRiver,Palawan</h2>
+                <p>
+                    Palawan is located in the Western Visayas Region and the islands stretches from Mindoro to Borneo in the southwest. The place is for adventure seekers and nature lovers and its famous for its marine sanctuaries, white sand beaches, and exotic wildlife.
+                </p>
+                <a href="other_pages/puerto.html" >
+                    <span class="learn"> Learn More</span>
+                </a>
+            </div>
+
+            <div class = "front">
+              <img src="resources/Puerto-front.png" alt="Foreground1">
+                <img src="resources/Bohol-front.png" alt="Foreground2">
+                <img src="resources/Boracay-front.png" alt="Foreground3">
+            </div>
+
+        </section>  
+
+        <section class = "gallery">
+            <h1 id="gallery">Gallery</h1>
+            <section class="category">
+                <h3 class="break">Puerto Princesa</h3>
+                <hr>
+                <div class="places">
+                    <img src="resources/puerto/1.jpg" alt="1" class = "gallery-cell">
+                    <img src="resources/puerto/2.jpg" alt="2" class = "gallery-cell">
+                    <img src="resources/puerto/3.jpg" alt="3" class = "gallery-cell">
+                    <img src="resources/puerto/4.jpg" alt="4" class = "gallery-cell">
+                    <img src="resources/puerto/5.jpg" alt="5" class = "gallery-cell">
+                    <img src="resources/puerto/6.jpg" alt="6" class = "gallery-cell">
+                </div>
+                <div class="food">
+                    <img src="resources/puerto/7.jpg" alt="7" class = "gallery-cell">
+                    <img src="resources/puerto/8.jpg" alt="8" class = "gallery-cell">
+                    <img src="resources/puerto/9.jpg" alt="9" class = "gallery-cell">
+                    <img src="resources/puerto/10.jpg" alt="10" class = "gallery-cell">
+                    <img src="resources/puerto/11.jpg" alt="11" class = "gallery-cell">
+                    <img src="resources/puerto/12.jpg" alt="12" class = "gallery-cell">
+                </div>
+            </section>
+
+            <section class="category">
+                <h3 class="break">Chocolate Hills</h3>
+                <hr>
+                <div class="places"> 
+                    <img src="resources/choco/6.jpeg" alt="6" class = "gallery-cell">
+                    <img src="resources/choco/1.jpg" alt="1" class = "gallery-cell">
+                    <img src="resources/choco/2.jpg" alt="2" class = "gallery-cell">
+                    <img src="resources/choco/3.jpg" alt="3" class = "gallery-cell">
+                    <img src="resources/choco/5.jpg" alt="5" class = "gallery-cell">
+                    <img src="resources/choco/4.jpg" alt="4" class = "gallery-cell">
+                </div>
+                <div class="food">
+                    <img src="resources/choco/7.jpg" alt="7" class = "gallery-cell">
+                    <img src="resources/choco/8.jpg" alt="8" class = "gallery-cell">
+                    <img src="resources/choco/9.jpg" alt="9" class = "gallery-cell">
+                    <img src="resources/choco/10.jpg" alt="10" class = "gallery-cell">
+                    <img src="resources/choco/11.jpg" alt="11" class = "gallery-cell">
+                    <img src="resources/choco/12.jpg" alt="12" class = "gallery-cell">
+                </div>
+            </section>
+
+            <section class="category">
+                <h3 class="break">Boracay</h3>
+                <hr>
+                <div class="places">
+                    <img src="resources/boracay/1.jpg" alt="1" class = "gallery-cell">
+                    <img src="resources/boracay/2.jpg" alt="2" class = "gallery-cell">
+                    <img src="resources/boracay/3.jpg" alt="3" class = "gallery-cell">
+                    <img src="resources/boracay/4.jpg" alt="4" class = "gallery-cell">
+                    <img src="resources/boracay/5.jpg" alt="5" class = "gallery-cell">
+                    <img src="resources/boracay/6.jpg" alt="6" class = "gallery-cell">
+                    </div>
+                </div>
+                <div class="food">
+                    <img src="resources/boracay/7.jpg" alt="7" class = "gallery-cell">
+                    <img src="resources/boracay/8.png" alt="8" class = "gallery-cell">
+                    <img src="resources/boracay/9.jpg" alt="9" class = "gallery-cell">
+                    <img src="resources/boracay/10.png" alt="10" class = "gallery-cell">                        
+                    <img src="resources/boracay/11.jpg" alt="11" class = "gallery-cell">
+                    <img src="resources/boracay/12.jpg" alt="12" class = "gallery-cell">
+                </div>
+            </section>
+
         </section>
     </main>
 

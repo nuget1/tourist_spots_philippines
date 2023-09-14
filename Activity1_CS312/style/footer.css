@@ -14,11 +14,13 @@ body{
 
 
 div.footer{
-    margin-top: 5px;
+    position: absolute;
+    margin-top: -10px;
     background:#000;
     padding:25px 20px;
     font-family: 'Play', sans-serif;
     text-align:center;
+    z-index: 25;
 }
     
 .footer .row{
