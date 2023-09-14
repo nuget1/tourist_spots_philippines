@@ -1,5 +1,13 @@
 /* Introductory Part CSS */
 
+.intro-container {
+    background-color: #ddf6ff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
 .intro {
     max-width: 800px; 
     margin: 20px auto; 
@@ -118,7 +126,7 @@ main {
 }
 
 .accommodation-container {
-    background-color: #c9f0fd9a;
+    background-color: #ddf6ff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -203,7 +211,7 @@ main {
 
 /* Comment Boxes CSS */
 .comments-container {
-    background-color: #c9f0fd9a;
+    background-color: #ddf6ff;
     padding: 20px;
     margin-top: 20px;
 }
@@ -245,7 +253,7 @@ main {
 
 /* Weather Section CSS */
 .weather-section {
-    background-color: #c9f0fd;
+    background-color: #ddf6ff;
     padding: 20px;
     margin-top: 20px;
 }
