@@ -55,18 +55,21 @@
 
 .boracay-slider {
   display: flex;
-  aspect-ratio: 16/9;
-  overflow-x: scroll; /* Add overflow-x property for scroll feature */
+  overflow-x: scroll; 
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
   border-radius: 0.5rem;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .boracay-slider img {
   flex: 1 0 100%;
   scroll-snap-align: start;
-  object-fit: cover;
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
 }
 
 .bora-slider-nav {
@@ -98,18 +101,17 @@
   .boracay-slider {
       display: flex;
       aspect-ratio: 16/9;
-      /* Remove box-shadow and border-radius if not needed on smaller screens */
+    
   }
 
   .boracay-slider img {
       flex: 1 0 auto;
       object-fit: cover;
       min-width: 100%;
-      /* Remove scroll-snap-align property and adjust other properties as needed */
+      
   }
 }
 /* Station 1, 2, 3 photos */
-/* Add styles for image captions and hover effect */
 .content-section ul li {
   margin-bottom: 20px;
 }
@@ -127,7 +129,7 @@
   border-radius: 10px;
 }
 
-/* Reduce the margin between images */
+
 .image-container .image-wrapper {
   flex: 1;
   max-width: 300px; 
@@ -162,19 +164,18 @@
 
 .boracay-slider {
   display: flex;
-  aspect-ratio: 16/9;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
   border-radius: 0.5rem;
-  width: 100%; /* Make the slider take up the full width of its container */
-  max-width: 40rem;
+  width: 100%; 
+  max-width: 30rem;
   margin: 0 auto;
 }
 
 .boracay-slider img {
-  flex: 0 0 auto; /* Allow the images to dictate the container size */
+  flex: 0 0 auto;
   scroll-snap-align: start;
   object-fit: cover;
   min-width: 100%;
