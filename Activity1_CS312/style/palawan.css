@@ -1,5 +1,14 @@
 /* Introductory Part CSS */
 
+
+ @font-face {
+        font-family: LovelyHome;
+        src: url('../resources/LovelyHome.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
 * {
     margin: 0;
 }
@@ -42,6 +51,7 @@
 
 .intro h1,
 .intro h2 {
+    font-family: LovelyHome;
     font-size: 36px; 
     margin-bottom: 10px;
     color: #c98724;
@@ -55,6 +65,7 @@
 /* Scenic Gallery CSS */
 
 .scenic-h2 {
+    font-family: LovelyHome;
     text-align: center;
 }
 .container {
@@ -127,6 +138,7 @@ header {
 */
 
 h2 {
+    font-family: LovelyHome;
     font-size: 24px;
     color: #c98724;
     margin-bottom: 10px;
