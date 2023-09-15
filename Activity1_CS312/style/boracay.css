@@ -82,15 +82,6 @@
   z-index: 1;
 }
 
-.bora-slider-nav a {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background-color: white;
-  opacity: 0.75;
-  transition: opacity ease 250ms;
-}
-
 .bora-slider-nav a:hover {
   opacity: 1;
   
