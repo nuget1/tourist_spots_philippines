@@ -1,6 +1,15 @@
 /* Introductory Part CSS */
 
+* {
+    margin: 0;
+}
+
+#headerr {
+    position: absolute;
+}
+
 .intro-container {
+    position: relative;
     background-color: #ddf6ff;
     padding: 20px;
     border-radius: 5px;
@@ -10,12 +19,15 @@
 
 .intro {
     max-width: 800px; 
-    margin: 20px auto; 
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto; 
     background-color: #adebff;
     padding: 20px; 
     box-sizing: border-box; 
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 100px;
 }
 
 .intro img {
@@ -46,6 +58,7 @@
     text-align: center;
 }
 .container {
+    position: relative;
     padding: 2rem;
 }
 
@@ -98,17 +111,20 @@
 /* CSS for the body and accomodations section */
 
 body {
+    position: relative;
     font-family: 'Roboto', sans-serif;
     background-color: #6ad0f1cb;
     margin: 20px auto;
 }
 
+/*
 header {
     background-color: #176B87;
     color: #fff;
     text-align: center;
     padding: 20px 0;
 }
+*/
 
 h2 {
     font-size: 24px;
@@ -126,6 +142,7 @@ main {
 }
 
 .accommodation-container {
+    position: relative;
     background-color: #ddf6ff;
     padding: 20px;
     border-radius: 5px;
@@ -211,6 +228,7 @@ main {
 
 /* Comment Boxes CSS */
 .comments-container {
+    position: relative;
     background-color: #ddf6ff;
     padding: 20px;
     margin-top: 20px;
@@ -253,6 +271,7 @@ main {
 
 /* Weather Section CSS */
 .weather-section {
+    position: relative;
     background-color: #ddf6ff;
     padding: 20px;
     margin-top: 20px;
@@ -278,6 +297,7 @@ main {
 
 /* News Section CSS */
 .news-section {
+    position: relative;
     background-color: #c9f0fd9a;
     padding: 20px;
     margin-top: 20px;
