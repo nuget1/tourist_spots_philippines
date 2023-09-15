@@ -13,10 +13,6 @@
     margin: 0;
 }
 
-#headerr {
-    position: absolute;
-}
-
 .intro-container {
     position: relative;
     background-color: #ddf6ff;
@@ -138,7 +134,7 @@ header {
 */
 
 h2 {
-    font-family: LovelyHome;
+    
     font-size: 24px;
     color: #c98724;
     margin-bottom: 10px;

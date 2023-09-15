@@ -1,7 +1,18 @@
+@font-face {
+  font-family: LovelyHome;
+  src: url('../resources/LovelyHome.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @media (max-width: 800px) and (orientation: landscape), (max-width: 800px) and (orientation: portrait) {
 
 
+#headerr {
+  position: absolute;
+}
   .boracay-headline {
+        font-family: LovelyHome;
         text-align: center;
         margin: 10px auto;
         font-size: 2.3rem;
